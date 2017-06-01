@@ -113,18 +113,24 @@ a:hover {
 
 #footer {
 	position: relative;
-	height: 50px;
+	height: 30px;
 	background-color: #245998;
 	clear: both;
 	font-family: Verdana, sans-serif;
 	font-size: 14px;
 	text-align: center;
 	color: #ffffff;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
 }
 
 #footer p {
 	position: relative;
 	padding-top: 15px;
+   
 }
 
 }
@@ -213,6 +219,27 @@ a:hover {
 	font-size: 20px;
 	font-weight: bold;
 }
+
+.video1 {
+	float: right;
+	position: relative;
+    padding: 1cm ;
+    clear: both
+    
+}
+
+.foreground {
+    width: 30%;
+    display: block;
+    margin: 10px auto 0;
+    background-color: aliceblue;
+    padding: 1cm;
+    clear: both;
+    position: relative;
+    
+}
+
+
 
 #h-table {
 	margin: 50px auto;
