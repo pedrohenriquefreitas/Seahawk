@@ -173,20 +173,30 @@ div ul li{
 	width: 60%;
 	height:60%;
 	margin-right: 250px;
-	margin-top:50px;
+	margin-top:150px;
 	float: left;
 	position: absolute;
 
 }
+.aboutrussel p {
+    font-size: 20px;
+}
 .highlights{
     border:  4px solid #4DFF00;
     font-size: 12px;
-	width: 400px;
+	width: 380px;
 	height: 400px;
 	margin-right: 250px;
-	margin-top: 140px;
+	margin-top: -355px;
 	float: left;
     position: absolute;
+    background-color: #A5ACAF;
+}
+.highlights ul li {
+    color: #001433;
+}
+.highlights h2 {
+    color: #001433;
 }
 .references{
 
@@ -242,43 +252,18 @@ div ul li{
 	margin-right: auto;
 	float: left;
 }
-.container {
-    position: relative;
-    width: 10%;
-    
-}
-.image {
+.spreadimage{
 	height: 400px;
 	width: 600px;
-    border-radius: 0%;
-	border: 1px solid black;
-	position: relative;
-    bottom: -30px;
+    border-radius: 2%;
+	border: 4px solid #4DFF00;
+	position: absolute;
+    bottom: -300px;
     left: 900px;
     align-self: center;
     
 }
-.overlay {
-    position: absolute;
-    bottom: 100px;
-    left: 1100px;
-    height: 200px;
-    width: 300px;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #4DFF00;
-}
-.container:hover .overlay {
-  opacity: 2;
-}
-.text {
-    color: #245998;
-    font-size: 20px;
-    position: relative;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     
-}
 .RW1{
 
 	height: 300px;
@@ -310,8 +295,8 @@ div ul li{
 	position: absolute;
     padding: 1cm ;
     clear: both
-    margin-right: 550px;
-	margin-top:440px;
+    margin-right: 590px;
+	margin-top:490px;
 
     
 }
