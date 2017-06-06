@@ -199,7 +199,7 @@ div ul li{
     color: #001433;
 }
 .references{
-
+    border:  4px normal #4DFF00;
 	font-size: 14px;
 	width: 900px;
 	height: 300px;
@@ -211,8 +211,8 @@ div ul li{
 
 }
 .imagelist{
-	font-size: 0;
-	width: 161px;
+	width: 200px;
+    height: 600px;
 	margin-right: 250px;
 	margin-top:0px;
 	float: right;
@@ -232,8 +232,25 @@ div ul li{
 .about{
 	border-radius: 5px;
 	padding: 10px;
-	position: relative;
+	position: absolute;
 	float:left;
+    width: 60%;
+    height: auto;
+     border:  4px solid #4DFF00;
+
+}
+.about2{
+	border-radius: 5px;
+	padding: 10px;
+	position: absolute;
+	float:left;
+    width: 60%;
+    height: auto;
+    border:  4px solid #4DFF00;
+    top: 400px;
+    
+    
+    
 
 }
 .link{
@@ -263,7 +280,6 @@ div ul li{
     align-self: center;
     
 }
-    
 .RW1{
 
 	height: 300px;
